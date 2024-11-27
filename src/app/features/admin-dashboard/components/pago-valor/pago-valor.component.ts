@@ -59,7 +59,7 @@ export default class PagoValorComponent implements OnInit {
     }
 
     const PagoValor = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Recibo_Pago:this.form.value.Recibo_Pago,
       Valor: Number(this.form.value.Valor),
       Usuario_Id : Number(this.loginService.getUser()),

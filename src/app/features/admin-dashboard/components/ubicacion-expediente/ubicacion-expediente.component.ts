@@ -68,7 +68,7 @@ export default class UbicacionExpedienteComponent implements OnInit {
     }
 
     const UbicacionExpediente = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Tipo_Ubicacion_Id: Number(this.form.value.Tipo_Ubicacion_Id),
       Fecha_Entrega: this.form.value.Fecha_Entrega,
       Usuario_Id : Number(this.loginService.getUser()),

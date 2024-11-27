@@ -87,7 +87,7 @@ export default class PruebasComponent {
     }
     const Pruebas = {
       ...this.form.value,
-      Expediente_Id : this.expediente.Id,
+      Expediente_Id : this.expediente.Expediente_Id,
       Ultima_Modificacion : this.expedienteService.getDate(),
       Usuario_Id : Number(this.loginService.getUser())
     }

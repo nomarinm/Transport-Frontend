@@ -60,7 +60,7 @@ export default class EjecutoriaComponent {
     }
 
     const Ejecutoria = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Fecha_Ejecutoria: this.form.value.Fecha_Ejecutoria,
       Usuario_Id : Number(this.loginService.getUser()),
       Ultima_Modificacion: this.http.getDate()

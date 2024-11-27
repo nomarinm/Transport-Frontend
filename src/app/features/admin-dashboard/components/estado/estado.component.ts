@@ -67,7 +67,7 @@ export default class EstadoComponent {
     }
 
     const Estado = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Tipo_Estado_Id: Number(this.form.value.Tipo_Estado_Id),
       Usuario_Id : Number(this.loginService.getUser()),
       Ultima_Modificacion: this.http.getDate()

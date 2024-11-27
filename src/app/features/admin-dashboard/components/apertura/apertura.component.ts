@@ -52,6 +52,7 @@ export default class AperturaComponent implements OnInit{
 
       this.expedienteService.buscarExpediente(res).subscribe((res:any)=>{
         this.expediente = res.result;
+        console.log(res)
       });
        this.expedienteService.getExpedienteTabla(res).subscribe((res)=>{
         this.expedientetabla.set(res);
@@ -81,7 +82,7 @@ export default class AperturaComponent implements OnInit{
     }
 
     const Expediente = {
-      Expediente_Id : this.expediente.Id,
+      Expediente_Id : this.expediente.Expediente_Id,
       Numero_Resolucion : this.form.value.Numero_Resolucion,
       Fecha_Resolucion : this.form.value.Fecha_Resolucion,
       Fecha_Notificacion : this.form.value.Fecha_Notificacion,

@@ -90,7 +90,7 @@ export default class RecursoSegundaInstanciaComponent {
     }
 
     const RecursoSegundaInstancia = {
-      Expediente_Id : this.expediente.Id,
+      Expediente_Id : this.expediente.Expediente_Id,
       Fecha_Envio_Segunda_Inst: this.form.value.Fecha_Envio_Segunda_Inst,
       No_Memorando_Envio: this.form.value.No_Memorando_Envio,
       No_Resolucion_Recurso_Apelacion: this.form.value.No_Resolucion_Recurso_Apelacion,

@@ -65,7 +65,7 @@ export default class EstadoFinalComponent implements OnInit {
     }
 
     const EstadoFinal = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Tipo_Estado_Final_Id: Number(this.form.value.Tipo_Estado_Final_Id),
       Usuario_Id : Number(this.loginService.getUser()),
       Ultima_Modificacion: this.http.getDate()

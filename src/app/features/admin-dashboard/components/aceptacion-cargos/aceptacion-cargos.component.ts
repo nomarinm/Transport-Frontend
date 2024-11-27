@@ -63,7 +63,7 @@ export default class AceptacionCargosComponent {
     }
 
     const AceptacionCargos = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Numero_Radicado: this.form.value.Numero_Radicado,
       Fecha_Radicado: this.form.value.Fecha_Radicado,
       Usuario_Id : Number(this.loginService.getUser()),

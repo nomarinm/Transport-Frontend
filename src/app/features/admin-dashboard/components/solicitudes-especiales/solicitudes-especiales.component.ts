@@ -61,7 +61,7 @@ export default class SolicitudesEspecialesComponent implements OnInit {
 
     const SolicitudesEspeciales = {
       ...this.form.value,
-      Expediente_Id : this.expediente.Id,
+      Expediente_Id : this.expediente.Expediente_Id,
       Usuario_Id : Number(this.loginService.getUser()),
       Ultima_Modificacion : this.expedienteService.getDate(),
     }

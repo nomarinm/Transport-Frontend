@@ -77,7 +77,7 @@ export default class AjusteDerechoAclaratorioComponent {
     }
 
     const AjusteDerechoAclaratorio = {
-      Expediente_Id : this.expediente.Id,
+      Expediente_Id : this.expediente.Expediente_Id,
       Tipo_Resolucion_Id : Number(this.form.value.Tipo_Resolucion_Id),
       No_Resolucion : this.form.value.No_Resolucion,
       Fecha_Resolucion : this.form.value.Fecha_Resolucion,

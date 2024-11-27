@@ -60,7 +60,7 @@ export default class GestionCobroComponent {
     }
 
     const GestionCobro = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Fecha_Envio: this.form.value.Fecha_Envio,
       Usuario_Id : Number(this.loginService.getUser()),
       Ultima_Modificacion: this.http.getDate()

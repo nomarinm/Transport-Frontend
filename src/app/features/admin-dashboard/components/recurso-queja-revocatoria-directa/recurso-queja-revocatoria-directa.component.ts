@@ -91,7 +91,7 @@ export default class RecursoQuejaRevocatoriaDirectaComponent {
     }
 
     const RecursoRevocatoriaDirecta = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Recurso_Queja_Revoc_Id: Number(this.form.value.Recurso_Queja_Revoc_Id),
       No_Radicado: this.form.value.No_Radicado,
       Fecha_Radicado: this.form.value.Fecha_Radicado,

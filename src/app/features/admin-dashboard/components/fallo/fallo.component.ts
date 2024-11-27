@@ -94,7 +94,7 @@ export default class FalloComponent {
       Fecha_Max_Para_Recursos: this.form.value.Fecha_Max_Para_Recursos,
       Numero_Radicado_Contra_Fallo: this.form.value.Numero_Radicado_Contra_Fallo,
       Fecha_Radicado_Contra_Fallo: this.form.value.Fecha_Radicado_Contra_Fallo,
-      Expediente_Id: Number(this.expediente.Id),
+      Expediente_Id: Number(this.expediente.Expediente_Id),
       Ultima_Modificacion: this.http.getDate(),
       Usuario_Id: Number(this.loginService.getUser())
 

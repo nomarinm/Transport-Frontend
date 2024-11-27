@@ -82,7 +82,7 @@ export default class RecursoPrimeraInstanciaComponent {
     }
 
     const RecursoPrimeraInstancia = {
-      Expediente_Id : this.expediente.Id,
+      Expediente_Id : this.expediente.Expediente_Id,
       Tipo_Recurso_Id : Number(this.form.value.Tipo_Recurso_Id),
       No_Resolucion_Recurso : this.form.value.No_Resolucion_Recurso,
       Fecha_Resolucion : this.form.value.Fecha_Resolucion,

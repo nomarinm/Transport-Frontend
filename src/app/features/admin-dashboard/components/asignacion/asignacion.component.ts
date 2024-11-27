@@ -72,7 +72,7 @@ export default class AsignacionComponent {
     }
 
     const Expediente = {
-      Expediente_Id: this.expediente.Id,
+      Expediente_Id: this.expediente.Expediente_Id,
       Nombre_Abogado_Id: Number(this.form.value.Nombre_Abogado_Id),
       Fecha_Asignacion: this.form.value.Fecha_Asignacion,
       Usuario_Id : Number(this.loginService.getUser()),
